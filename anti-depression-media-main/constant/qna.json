@@ -1,0 +1,92 @@
+[
+  {
+    "question": "How often have you had little interest or pleasure in doing things",
+    "options": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly Everyday"
+    ]
+  },
+  {
+    "question": "How often have you been bothered by feeling tired or having little energy",
+    "options": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly Everyday"
+    ]
+  },
+  {
+    "question": "How often have you been bothered by trouble falling or staying asleep, or sleeping too much",
+    "options": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly Everyday"
+    ]
+  },
+  {
+    "question": "How often do you feel that all your hobbies and interests are boring and worthless and nothing can stimulate you",
+    "options": [
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly Everyday"
+    ]
+  },
+  {
+    "question": "How often have you been bothered by feeling bad about yourself, or that you are a failure, or have let yourself or your family down",
+    "options":[
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly Everyday"
+    ]
+  },
+  {
+    "question": "Are you afraid of forming a new relationship and feel scared of attachment",
+    "options":[
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly Everyday"
+    ]
+  },
+  {
+    "question": "How often you have an anxiety attack (suddenly feeling fear or panic)",
+    "options":[
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly Everyday"
+    ]
+  },
+  {
+    "question": "How often have you been bothered by feeling nervous, anxious or on edge",
+    "options":[
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly Everyday"
+    ]
+  },
+  {
+    "question": "How often have you been bothered by feeling afraid as if something awful might happen",
+    "options":[
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly Everyday"
+    ]
+  },
+  {
+    "question": "How often do you feel guilty or tearful htmlFor no reason",
+    "options":[
+      "Not at all",
+      "Several days",
+      "More than half the days",
+      "Nearly Everyday"
+    ]
+  }
+]

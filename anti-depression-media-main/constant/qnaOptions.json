@@ -1,0 +1,18 @@
+[
+    {
+        "label" : "Not at all",
+        "value": 5
+    },
+    {
+        "label" : "Several days",
+        "value": 10
+    },
+    {
+        "label" : "More than half the days",
+        "value": 15
+    },
+    {
+        "label" : "Nearly Everyday",
+        "value": 20
+    }
+]
