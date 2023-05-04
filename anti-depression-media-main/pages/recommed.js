@@ -264,7 +264,7 @@ function Recommed() {
             </div>
           </form>
           <form className="flex-1" onSubmit={handleSubmitMovie}>
-            <div className="flex flex-col items-center  justify-center space-y-3 bg-red-200 px-3  ">
+            <div className="flex flex-col items-center  justify-center space-y-3 bg-red-200 px-3">
               <div className="flex flex-col items-center border border-black p-5 rounded-md">
               <label className="font-bold">Select Movie</label>
               <div
