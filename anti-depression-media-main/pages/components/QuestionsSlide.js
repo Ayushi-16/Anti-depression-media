@@ -114,8 +114,13 @@ const QuestionsSlide = ({ isSelected }) => {
   const handleOptionClick = (selectId) => {
     setSelectId(selectId);
   };
-  const handleNextClick = () => {
+  const handleNextButtonClick = () => {
     setSelectId(null);
+    if (selectId) {
+      setCount(count + 1);
+      setClr(document.body);
+      setSelectId(isSelected);
+    }
   };
 
   const Option = ({
@@ -235,11 +240,7 @@ const QuestionsSlide = ({ isSelected }) => {
           <div className="flex justify-center space-x-4 p-4">
             <button
               disabled={count === 9}
-              onClick={() => {
-                setCount(count + 1);
-                setClr(document.body);
-                setSelectId(isSelected);
-              }}
+              onClick={handleNextButtonClick}
               className="bg-[#FF5A5F] rounded-lg  px-4 py-2 text-white font-bold"
             >
               Next

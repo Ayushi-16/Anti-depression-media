@@ -11,6 +11,36 @@ function Recommed() {
     setX(!x);
   };
 
+  // const [x,setX] = useState(()=>{
+  //   if(typeof window!== 'undefined'){
+  //     const storedMode = localStorage.getItem('mode');
+  //     return storedMode ? storedMode : 'light';
+  //   }
+  //   return 'light';
+  // })
+
+  // useEffect(()=>{
+  //   if(typeof window!== 'undefined'){
+  //     localStorage.setItem('mode',x);
+  //   }
+  // },[x]);
+
+  // const toggleTheme = () => {
+  //   setX(x === 'light' ? 'dark' : 'light');
+  // };
+
+  // const lightModeStyles = {
+  //   backgroundColor: '#ffffff',
+  //   color: '#000000',
+  // };
+  
+  // const darkModeStyles = {
+  //   backgroundColor: '#000000',
+  //   color: '#ffffff',
+  // };
+
+  // const appStyles = x === 'light' ? lightModeStyles : darkModeStyles;
+
   const [moodList, setMoodList] = useState("");
   const [book, setBook] = useState("");
   const [movie, setMovie] = useState("");
@@ -18,7 +48,6 @@ function Recommed() {
     if (!moodList) return [];
     if (!book) return [];
 
-    // const matchRecommedation = suggestion.filter()
   };
 
   const [datasong, setDataSong] = useState([{}]);
@@ -116,11 +145,10 @@ function Recommed() {
         </motion.div>
         <div className="grid md:grid-cols-3 space-y-3 w-full overflow-x-hidden bg-red-200 ">
 
-
-          <form className="flex-1" onSubmit={handleSubmitSong}>
+          <form className="flex-1 " onSubmit={handleSubmitSong}>
             <div className="flex flex-col items-center  justify-center space-y-3 bg-red-200 px-3">
             <div className="flex flex-col items-center border border-black p-5 rounded-md">
-                <label className="font-bold">Select Mood</label>
+              <label className="font-bold">Select Mood</label>
               <div
                 className="flex flex-col"
                 onChange={(e) => setMoodList(e.target.value)}
@@ -190,6 +218,7 @@ function Recommed() {
               </div>
             </div>
           </form>
+
           <form className="flex-1" onSubmit={handleSubmitBook}>
             <div className="flex flex-col items-center  justify-center space-y-3 bg-red-200 px-3 ">
             <div className="flex flex-col items-center border border-black p-5 rounded-md">
@@ -263,9 +292,10 @@ function Recommed() {
               </div>
             </div>
           </form>
+
           <form className="flex-1" onSubmit={handleSubmitMovie}>
             <div className="flex flex-col items-center  justify-center space-y-3 bg-red-200 px-3">
-              <div className="flex flex-col items-center border border-black p-5 rounded-md">
+            <div className="flex flex-col items-center border border-black p-5 rounded-md">
               <label className="font-bold">Select Movie</label>
               <div
                 className="flex flex-col"
@@ -332,6 +362,7 @@ function Recommed() {
               </div>
             </div>
           </form>
+
         </div>
       </div>
     </div>
